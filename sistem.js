@@ -9,8 +9,8 @@ class Customer {
 class bankantrian {
     constructor(prefix="T") {
     this.items = []; //array antrian
-    this.prefix = prefix; // hitung nomor
-    this.counter = 0;
+    this.prefix = prefix; 
+    this.counter = 0; // hitung nomor
   }
 generateNumber(){
     this.counter++;
