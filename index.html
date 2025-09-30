@@ -6,17 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>🏦 Antrian Teller Bank</h2>
-  
-  <input id="nameInput" placeholder="Nama nasabah">
-  <button id="addBtn">Ambil Nomor Antrian</button>
-  <button id="nextBtn">Layani Berikutnya</button>
+<h2>🏦 Antrian Teller Bank</h2>
 
-  <h3>Sedang Dilayani:</h3>
-  <p id="now">-</p>
+<input id="nameInput" placeholder="Nama nasabah">
+<select id="serviceSelect">
+  <option value="Setor">Setor</option>
+  <option value="Tarik">Tarik</option>
+  <option value="CS">CS</option>
+</select>
+<button id="addBtn">Ambil Nomor Antrian</button>
 
-  <h3>Daftar Antrian:</h3>
-  <ul id="queueList"></ul>
+<h3>Sedang Dilayani:</h3>
+<p id="now">-</p>
+
+<h3>Daftar Antrian:</h3>
+<ul id="queueList"></ul>
+
+<h3>History Layanan:</h3>
+<ul id="historyList"></ul>
+
 
     <script src="sistem.js"></script>
 </body>
