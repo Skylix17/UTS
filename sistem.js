@@ -28,7 +28,7 @@ generateNumber(){
 }
 
 // ===== App logic =====
-const q = new BankQueue();
+const q = new bankantrian();
 let current = null;
 
 const nameInput = document.getElementById("nameInput");
