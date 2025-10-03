@@ -41,7 +41,7 @@ const serviceSelect = document.getElementById("serviceSelect");
 const list = document.getElementById("queueList");
 const now = document.getElementById("now");
 const historyList = document.getElementById("historyList");
-const nowContainer = document.getElementById("nowContainer");
+
 
 function render() {
     // Tampilkan nasabah yang sedang dilayani
